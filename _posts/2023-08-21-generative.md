@@ -4,6 +4,7 @@ title: 'Notes on generative models'
 date: 2023-08-21
 tags: 
   - Machine Learning
+image: /images/posts/generative/overview.png
 ---
 
 This post gives a general introduction of popular generative models such as variational autoencoder (VAE), autoregressive models, generative adversarial networks (GANs), and diffusion models.
@@ -34,7 +35,7 @@ Some popular generative models are summarized in the following table and the bas
 
 
 
-![Overview](../images/posts/generative/overview.png)
+![Overview](/images/posts/generative/overview.png){:alt="drawing" style="width:200px; float:right;"}
 <!-- <figure>
   <img
   src="../images/posts/generative/overview.png"
