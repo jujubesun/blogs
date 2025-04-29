@@ -34,12 +34,13 @@ Some popular generative models are summarized in the following table and the bas
 
 
 
-<figure>
+![Overview](../images/posts/generative/overview.png)
+<!-- <figure>
   <img
   src="../images/posts/generative/overview.png"
   alt="Overview">
   <figcaption>Overview</figcaption>
-</figure>
+</figure> -->
 
 
 ### Philosophical discussion on the hierarchy of information
