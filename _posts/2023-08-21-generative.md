@@ -102,8 +102,8 @@ Therefore we figured out that the difference between the ELBO and the log likeli
 
 ***Variational*** comes from the ELBO is the lower bound of the log likelihood, so the method is variational. ***Autoencoder*** comes from a traditional autoencoder model, where input data is trained to predict itself after undergoing an intermediate bottlenecking representation step. The idea (left) and the network (right) of are shown as follows. The **bottleneck representation** is the red layer, i.e., the **latent data**, and it looks like the shape of a bottleneck.
 
-<img src="../images/posts/generative/vae.png" alt="VAE" style="width:49%;"/>
-<img src="../images/posts/generative/vae2.png" alt="VAE" style="width:49%;"/>
+<img src="/img/generative/vae.png" alt="VAE" style="width:49%;"/>
+<img src="/img/generative/vae2.png" alt="VAE" style="width:49%;"/>
 
 
 The encoder is $q(\mathbf{z}\vert\mathbf{x})$, and the decoder is $p(\mathbf{x}\vert\mathbf{z})$.
