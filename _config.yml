@@ -3,7 +3,7 @@ theme: minima
 title: Jujube's Secret Garden
 author: Jujube Sun
 
-timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
+# timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
 
 description: >
@@ -20,7 +20,7 @@ description: >
 #pinterest_username: jekyll
 #youtube_username: jekyll
 #googleplus_username: +jekyll
-rss: rss
+# rss: rss
 
 show_excerpts: false
 
@@ -58,7 +58,7 @@ collections:
     output: true
 
 header_pages:
-  - resume.html
+  # - resume.html
   - archive.html
 #  - books.md # Commenting out for now as putting more focus on pluralsight than reading
   - bookmarks.md
