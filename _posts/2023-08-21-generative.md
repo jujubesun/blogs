@@ -36,7 +36,7 @@ Some popular generative models are summarized in the following table and the bas
 
 <figure>
   <img
-  src="../../images/posts/generative/overview.png"
+  src="../images/posts/generative/overview.png"
   alt="Overview">
   <figcaption>Overview</figcaption>
 </figure>
@@ -106,8 +106,8 @@ Therefore we figured out that the difference between the ELBO and the log likeli
 
 ***Variational*** comes from the ELBO is the lower bound of the log likelihood, so the method is variational. ***Autoencoder*** comes from a traditional autoencoder model, where input data is trained to predict itself after undergoing an intermediate bottlenecking representation step. The idea (left) and the network (right) of are shown as follows. The **bottleneck representation** is the red layer, i.e., the **latent data**, and it looks like the shape of a bottleneck.
 
-<img src="../../images/posts/generative/vae.png" alt="VAE" style="width:49%;"/>
-<img src="../../images/posts/generative/vae2.png" alt="VAE" style="width:49%;"/>
+<img src="../images/posts/generative/vae.png" alt="VAE" style="width:49%;"/>
+<img src="../images/posts/generative/vae2.png" alt="VAE" style="width:49%;"/>
 
 
 The encoder is $q(\mathbf{z}\vert\mathbf{x})$, and the decoder is $p(\mathbf{x}\vert\mathbf{z})$.
@@ -233,7 +233,7 @@ VDM has the same structure as the Markovian Hierarchical VAE, with three constra
 
 The idea is to evolve the data to a pure Gaussian noise, and the information of the distribution of the data is encoded in the hyperparameters in each layer. This is a coarse-graining procedure, similar as tensor network contraction. Shown in the following figure:
 
-<img src="../../images/posts/generative/vdm.png" alt="Diffusion models"/>
+<img src="../images/posts/generative/vdm.png" alt="Diffusion models"/>
 
 
 ## The model
