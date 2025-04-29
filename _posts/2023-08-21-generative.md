@@ -34,7 +34,7 @@ Some popular generative models are summarized in the following table and the bas
 
 
 
-![Overview](/img/posts/generative/overview.png)
+![Overview](/img/generative/overview.png)
 
 
 
